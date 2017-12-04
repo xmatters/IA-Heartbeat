@@ -1,7 +1,7 @@
 # IA-Heartbeat
 Integration Service that routinely sends in an event, a related subscription ensures alerts are sent if the integration is non responsive for a time
 
-This integration was originally created by our amazing xMatters Consultant Matt Henry after the idea came to him in a dream.
+This integration was originally created by our amazing xMatters Consultant, Matt Henry, after the idea came to him in a dream.
 
 # Installation
 

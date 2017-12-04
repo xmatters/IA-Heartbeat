@@ -1,7 +1,7 @@
 # IA-Heartbeat
 Integration Service that routinely sends in an event, a related subscription ensures alerts are sent if the integration is non responsive for a time
 
-This integration was originally created by our amazing xMatters Consultant Matt Henry after the idea came to him in a dream.
+This integration is originally created by our amazing xMatters Consultant Matt Henry after the idea came to him in a dream.
 
 # Installation
 
@@ -44,6 +44,9 @@ In xMatters create a subscription using the subscription form you have created.
 * Make sure you set a notification delay that is longer than the poll interval.
 * Enter text in the integration_service property that is in all the agent messages you want to keep tabs on.  For instance if you've several agents using different but similar values like, 'Agent 1 IA Monitoring', 'Agent 2 IA Monitoring' and 'Agent 3 IA Monitoring' you can keep an eye on them all with one subscription that looks for 'IA Monitoring'.
 
-## Testing
+# Testing
 * Let the integration agent run for a few poll intervals.  Note the events created in the reports tab.  Note that each time a new event comes in the old events are terminated.
 * Stop the integration agent.  After the subscription delay you will receive a notification from xMatters On Demand.
+
+# Trouble Shooting
+* If you have a particularly busy environment you may find that the event deletions are not processed quickly enough as they can get queued behind other events.  Try extending the time the subscription waits for to give the integration more time to catch the events before they notify you.

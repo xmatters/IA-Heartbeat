@@ -5,7 +5,7 @@
 // ----------------------------------------------------------------------------------------------------
 // The url that will be used to inject events into xMatters.
 // ----------------------------------------------------------------------------------------------------
-WEB_SERVICE_URL = "https://adamwatson.eu1.xmatters.com/api/integration/1/functions/ecff6bc6-86db-4ba1-8c04-1f1b32041729/triggers";
+WEB_SERVICE_URL = "https://adamwatson.eu1.xmatters.com/api/integration/1/functions/ecff6bc6-86db-4ba1-8c04-111111111111/triggers";
 
 // ----------------------------------------------------------------------------------------------------
 // The API URL detail
@@ -29,7 +29,7 @@ INTEGRATION_SERVICE_FIELD_VALUE = "Agent 1 IA Monitoring";
 //---------------------------------
 // Event Target, recomend setting this to an empty group.  Leave blank to target the API_USER bellow
 // ---------------------------------
-INTEGRATION_TARGET = "go.nowhere";
+INTEGRATION_TARGET = "";
 
 // ----------------------------------------------------------------------------------------------------
 // Logging Configuration

@@ -10,14 +10,14 @@ Integration Service that routinely sends in an event, a related subscription ens
   * Add the API user to the sender permissions list on the Integration Agent Monitoring
   * Create an inbound integration that will create a new event on the Integration Agent Monitoring form
     * Make sure you select Basic Authentication
-<img src="media/2017-12-04_14-58-13.png" >
+![Inbound Integration](media/2017-12-04_14-58-13.png)
   * Save the integration and keep the trigger URL for later
   * Still in the communication plan, create a subscription form. Make sure:
     * You name the form appropriately
     * You keep the notification delay on the form
     * You add the integration_service property to the form
     * You assign a role (probably Company Supervisor) to the list of roles that can subscribe
-<img src="media/2017-12-04_15-10-20.png" >
+<img src="media/2017-12-04_15-10-20.png" align="right">
   * Create a new group with no one in it to be the target of the notifications.  Remember the group name for later.
     * If you don't want anyone to see the group set the API User as a supervisor and remove all the observers.
 

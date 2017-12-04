@@ -48,5 +48,5 @@ In xMatters create a subscription using the subscription form you have created.
 * Let the integration agent run for a few poll intervals.  Note the events created in the reports tab.  Note that each time a new event comes in the old events are terminated.
 * Stop the integration agent.  After the subscription delay you will receive a notification from xMatters On Demand.
 
-# Trouble Shooting
+# Troubleshooting
 * If you have a particularly busy environment you may find that the event deletions are not processed quickly enough as they can get queued behind other events.  Try extending the time the subscription waits for to give the integration more time to catch the events before they notify you.

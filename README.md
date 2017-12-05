@@ -44,7 +44,7 @@ This integration was originally created by our amazing xMatters Consultant, Matt
 
 ## Create a subscription
 In xMatters create a subscription using the subscription form you have created.
-* Make sure you set a notification delay that is longer than the poll interval `POLLING_INTERVAL_MS`.
+* Make sure you set a notification delay that is longer than the poll interval `POLLING_INTERVAL_MS` defined for the integration on the agent above.
 * Enter text in the integration_service property that is in all the agent messages you want to keep tabs on.  For instance if you've several agents using different but similar values like, "Agent 1 IA Monitoring", "Agent 2 IA Monitoring" and "Agent 3 IA Monitoring" you can keep an eye on them all with one subscription that looks for "IA Monitoring".
 
 # Testing

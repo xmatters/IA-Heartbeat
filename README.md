@@ -3,6 +3,10 @@ Integration Service that routinely sends in an event, a related subscription ens
 
 This integration was originally created by our amazing xMatters Consultant, Matt Henry, after the idea came to him in a dream.
 
+<kbd>
+  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</kbd>
+
 # Installation
 
 ## xMatters Configuration

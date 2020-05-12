@@ -3,22 +3,22 @@ Integration Service that routinely sends in an event, a related subscription ens
 
 This integration was originally created by our amazing xMatters Consultant, Matt Henry, after the idea came to him in a dream.
 
-<kbd>
-  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
-</kbd>
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
 
 # Installation
 
 ## xMatters Configuration
 * Create an API user giving it `REST Web Service role`.  Remember the username and password for later.
-* Upload the communication plan `IntegrationAgentMonitoring.zip`
-* Within the communication plan
+* Upload the workflow `IntegrationAgentMonitoring.zip`
+* Within the workflow
   * Add the API user to the sender permissions list on the `Integration Agent Monitoring` form
   * Create an inbound integration that will create a new event on the Integration Agent Monitoring form
     * Make sure you select Basic Authentication
 ![Inbound Integration](media/2017-12-04_14-58-13.png)
   * Save the integration and keep the trigger URL for later
-  * Still in the communication plan, create a subscription form. Make sure:
+  * Still in the workflow, create a subscription form. Make sure:
     * You name the form appropriately
     * You keep the notification delay on the form
     * You add the `integration_service` property to the form
